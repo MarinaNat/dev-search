@@ -72,6 +72,8 @@ domElements.results.innerHTML = cardsArr.join('')
 	}
 	// Клик по кнопке поиска
 	domElements.search.button.onclick = () => {
-		alert('Клик по кнопке поиска')
+
 	}
 }
+
+// Функция фильтрации товаров

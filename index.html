@@ -17,10 +17,50 @@
 				<button id="search-button">Найти</button>
 			</div>
 		</haeder>
+		<div class="filters">
+			<fieldset>
+				<legend>Категория</legend>
+				<select id="filter-category" class="filter">
+					<option value="">Все</option>
+					<option value="Техника">Техника</option>
+					<option value="Одежда">Одежда</option>
+					<option value="Обувь">Обувь</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Цвет</legend>
+				<select id="filter-color" class="filter">
+					<option value="">Все</option>
+					<option value="Черный">Черный</option>
+					<option value="Белый">Белый</option>
+					<option value="Серый">Серый</option>
+					<option value="Синий">Синий</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Год</legend>
+				<select id="filter-year" class="filter">
+					<option value="">Все</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Страна</legend>
+				<select id="filter-country" class="filter">
+					<option value="">Все</option>
+					<option value="Корея">Корея</option>
+					<option value="Китай">Китай</option>
+					<option value="США">США</option>
+					<option value="Германия">Германия</option>
+					<option value="Россия">Россия</option>
+				</select>
+			</fieldset>
+		</div>
 		<section class="content">
 			<h2 class="title">Результат поиска</h2>
 			<div id="results" class="results">
-
 			</div>
 		</section>
 	</main>

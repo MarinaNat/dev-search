@@ -8,7 +8,7 @@ const category = {
 const cardsData = [
 	{
 		id: '1',
-		title: 'Талевизор',
+		title: 'Телевизор',
 		description: 'Талевизор Samsung',
 		params: {
 			year: 2020,
